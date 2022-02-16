@@ -18,6 +18,11 @@ import collaborateur.web.service.model.Collaborateur;
 import collaborateur.web.service.model.exceptions.CollaborateurExistException;
 import collaborateur.web.service.model.exceptions.CollaborateurInconnuException;
 
+/**
+ * 
+ * @author mrshakibaei
+ *
+ */
 @WebService(endpointInterface = "collaborateur.web.service.model.services.CollaborateurService")
 public class CollaborateurServiceImpl implements CollaborateurService {
 
